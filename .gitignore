@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# Build output
+.next/
+out/
+
+# Next.js cache
+.next/cache/
+
+# Dependency directories
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store          # macOS
+Thumbs.db          # Windows
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# Environment variable files
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.swp
+*.swo
