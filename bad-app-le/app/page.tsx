@@ -11,19 +11,29 @@ npm start
 </>
 export default function Home() {
   return (
-    <div style={{ 
-      display: "flex", 
-      flexDirection: "column", 
-      alignItems: "center", 
-      justifyContent: "center", 
-      height: "100vh"
-    }}>
-      <h1>
-        Sample Hero Name Here
-      </h1>
-      <h2>
-        Player Name
-      </h2>
-    </div>
+	<div>
+		<div style={{ 
+		  display: "flex", 
+		  flexDirection: "column", 
+		  alignItems: "center", 
+		  justifyContent: "center", 
+		  height: "100vh"
+		}}>
+		  <h1>
+			Sample Hero Name Here
+		  </h1>
+		  <h2>
+			Player Name
+		  </h2>
+		  <br/>
+		  <p>
+			<center>
+			Player Class or something I FORGOT, SOMEONE PUT THE GUIDELINE IN THE COMMENTS HERE AAAA
+			<br/>
+			(also remember, the page is in app\page.tsx)
+			</center>
+		  </p>
+		</div>
+	</div>
   );
 }
